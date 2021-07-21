@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.main-title {
+  background-color: #b5cda3;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+input {
+  border: 3px solid #b5cda3;
+  width: 68%;
+  padding: 8px;
+}
+
+button {
+  border: 3px solid #b5cda3;
+  background-color: white;
+  color: #b5cda3;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-image: url("redX.png");
+  list-style-type: 10px;
+  color: #fea82f;
+}
+
+li {
+  padding: 5px;
+}
